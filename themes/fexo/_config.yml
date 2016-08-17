@@ -52,9 +52,6 @@ page_nav:
   - name: 关于
     url: /about/
     target_blank: false
-  - name: RSS
-    url: /atom.xml
-    target_blank: true # 在新页面打开
   - name: 搜索
     url: /search/
     target_blank: false # 在新页面打开
@@ -76,7 +73,7 @@ search_slogan:
 
 link_slogan:
   isShow: true # true|fase
-  text: 交换友链可以邮件 ydejie@gmail.com
+  text: 交换友链可以邮件 i@idejie.com
 
 # set backtop show or hide
 backtop:
@@ -154,16 +151,14 @@ duoshuo_shortname: idejie
 about:
   - type: me
     icon: icon-user
-    text_value: "杨德杰，95后搬砖工人"
+    text_value: "杨德杰,95后搬砖工人 "
 
-  - type: introduction
-    icon: icon-twitter
-    text_value: "           梦想成为全栈工程师"
-
+  - type: dream
+    icon: icon-rss
+    text_value: "梦想成为全栈工程师"
   - type: jineng
-    icon: icon-home
+    icon: icon-tag
     text_value: "会一点Android、Java、C/C++、HTML、CSS、React、Meteor"
-
   - type: Github
     icon: icon-github
     text_key: Github
@@ -174,13 +169,23 @@ about:
     text_key: 微博
     text_value: "@i杨德杰"
     text_value_url: http://weibo.com/cndo2015
+  - type: introduction
+    icon: icon-twitter
+    text_key: Twitter 
+    text_value: "@yang7dj"
+    text_value_url: "https://twitter.com/yang7dj"
   - type: qq
     icon: icon-qq
-    text_value: "QQ：873135452"
+    text_key: "QQ"
+    text_value: "873135452"
+    text_value_url: "http://user.qzone.qq.com/873135452"
+  - type: wechat
+    icon: icon-wechat
+    text_value: "公众号：YuanCode"
   - type: mail
     icon: icon-mail
-    text_key: Gmail
-    text_value: "ydejie@gmail.com"
+    text_key: 邮箱
+    text_value: "i@idejie.com"
   - type: location
     icon: icon-location
     text_value: 中国，山东，济南（Jinan，Shandong，China）
