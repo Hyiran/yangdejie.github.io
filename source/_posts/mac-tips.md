@@ -5,17 +5,17 @@ tags: Mac
 categories: 教程
 ---
 
-0.App Store 应用太贵？
+### 0.App Store 应用太贵？
 
 ​	xclient.info网站基本满足大多数人【想不花钱下载】的需求
 
 ​	链接：[xclient](http://xclient.info/)（壕们请购买正版）
 
-1.百度云下载大文件
+### 1.百度云下载大文件
 
 ​	请移步另一篇博客[百度云破解](http://blog.idejie.com/2016/08/24/baiduyun-crack/)
 
-2.查看当前隐藏文件目录：
+### 2.查看当前隐藏文件目录：
 
 
  在终端输入：
@@ -23,13 +23,14 @@ categories: 教程
  	defaults write com.apple.finder _FXShowPosixPathInTitle -bool TRUE
 ```
 
-3.shell下装两个下载软件
+### 3.shell下装两个下载软件
+
 ```shell
 	brew install wget axe
 ```
-4.Safari配合`popclip`使用
+### 4.Safari配合`popclip`使用
 
-5.终极 Shell——Zsh
+### 5.终极 Shell——Zsh
 
 ​	Zsh相关介绍:[知乎](https://www.zhihu.com/search?type=content&q=zsh)
 
@@ -51,9 +52,9 @@ sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/to
 
 
 
-6.Mac快捷键汇总
+### 6.Mac快捷键汇总
 
-常用的一些：
+#### 常用的一些：
 
 > command+Z=撤銷（如果可以的話）
 > command+Y=重做（如果可以的話）
@@ -91,7 +92,7 @@ sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/to
 > shift（+fn）+F11=減小音量（無聲音提示）
 > shift（+fn）+F12=增大音量（無聲音提示）
 
-一些窗口操作的：
+#### 一些窗口操作的：
 
 > 按住shift單擊窗口左上角⊕符號可最大化窗口
 > 按住command點擊Dock程序、文件夾或替身可到達該文件位置
@@ -101,7 +102,7 @@ sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/to
 > 在系統自帶拼音輸入法中，按Shift＋6：打開表情符號選擇。
 > command+～：同一應用多窗口間切換
 
-Finder下:
+#### Finder下:
 
 >
 > command+shift+U：打開【實用工具】文件夾
@@ -117,8 +118,7 @@ Finder下:
 > command+shift+N：新建文件夾
 > command+option+N：用所選項目新建文件夾
 
-
-在Dock栏上：
+#### 在Dock栏上：
 
 >
 > 按住command和option後單擊一個圖標：打開程序並隱藏當前桌面的所有程序
@@ -129,8 +129,7 @@ Finder下:
 > command+Z：截取整個屏幕
 > command+shift+Z：定時截圖整個屏幕，默認10秒
 
-
-关于截圖：
+#### 关于截圖：
 
 >
 > 1.command+shift+3:全屏截圖，保存截圖到桌面文件
@@ -160,8 +159,7 @@ Finder下:
 > 開機時按住command+option+N+V組合鍵：清除NV RAM
 > 開機時按住Mute靜音鍵：靜音開機
 
-
-文檔定位：
+#### 文檔定位：
 
 >
 > control+↑或↓：上一頁 / 下一頁
@@ -175,13 +173,15 @@ Finder下:
 > fn+↑或↓：上一頁 / 下一頁
 > fn+delete：Del
 
-8.移动硬盘使用
+### 8.移动硬盘使用
+
 ​	选择磁盘工具先将其分为a,b两个区。
 
 ​	a区为timemachine使用盘（大小是电脑存储大小的两倍），格式选为OS X扩展 日志式。
 
 ​	b区选为fat格式。fat格式在win下也能使用。（最好使用ntfs格式）
-9.MacBook 清灰
+
+### 9.MacBook 清灰
 
 [	清洁您的 Apple 产品](https://support.apple.com/zh-cn/HT3226)
 
@@ -192,4 +192,4 @@ Finder下:
 
 
 
-10.[Mac OS X Terminal 101：终端使用初级教程](https://www.renfei.org/blog/mac-os-x-terminal-101.html)
+### 10.[Mac OS X Terminal 101：终端使用初级教程](https://www.renfei.org/blog/mac-os-x-terminal-101.html)
